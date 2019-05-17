@@ -1,0 +1,22 @@
+
+Naprogramujte engine pro textové RPG (gamebook)
+
+Váš engine:
+
+	1. ze souboru nahraje definici světa (lokace, přechody mezi lokacemi, události, rozhovory, věci, příšery, ...)
+	2. umožní vytvořit herní postavu (její atributy a schopnosti) a následnou hru
+	3. implementuje jednoduchý soubojový systém a inventář
+	4. umožňuje ukládat a načítat rozehrané hry
+	5. umožňuje interakci světa volitelným způsobem (volba u nabídky, klíčova slova ala Zork nebo Albion, ...)
+
+Kde lze využít polymorfismus? (doporučené)
+
+	1. Soubojové vlastnosti: postava, příšera, stroj (např. past, bomba,...)
+	2. Efekty akcí: souboje, události (pád ze stromu,...), přechod do jiné místnosti
+	3. Inventář: postava, batoh (slouží jako věc i inventář zároveň), toulec, kapsa
+
+Další informace:
+
+	https://cs.wikipedia.org/wiki/Gamebook
+	https://www.projectaon.org/en/Main/Books
+
