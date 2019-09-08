@@ -1,0 +1,31 @@
+Main greeting: a brief introduction to the world you created. The player is going to see it every time he starts or continues a game in this world@
+Number of locations in the world. Just one number is expected. This example is considering two locations.@
+Location name@
+Introduction to the location@
+Way to the NPC and his greeting to the player@
+Name of the item, which NPC is going to give you after you help him@
+NPC's farewell and entering the dangerous zone@
+Way back to the NPC and his thankful words@
+Number of simple mobs in the location@
+Mob's description@
+Number of events in the location@
++ for good event, - for bad event. Just one sign is expected@
+Event's description@
+Way to the Boss and his words to the player@
+Name of usable item the Boss is going to drop@
+Player won the battle with the Boss@
+Location name@
+Introduction to the location@
+Way to the NPC and his greeting to the player@
+Name of the item, which NPC is going to give you after you help him@
+NPC's farewell and entering the dangerous zone@
+Way back to the NPC and his thankful words@
+Number of simple mobs in the location@
+Mob's description@
+Number of events in the location@
++ for good event, - for bad event. Just one sign is expected@
+Event's description@
+Way to the Boss and his words to the player@
+Name of usable item the Boss is going to drop@
+Player won the battle with the Boss@
+This is going to appear when the player finishes all the locations@

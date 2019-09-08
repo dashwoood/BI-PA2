@@ -1,18 +1,18 @@
 all:
-	@mkdir -p parkhal1
-	@g++ -g -Wall -pedantic -Wno-long-long -O0 -ggdb src/*.cpp -o game_engine 
-	@mv game_engine parkhal1/
+	@g++ -g -Wall -pedantic -Wno-long-long -O0 -ggdb src/*.cpp -o parkhal1
 
 compile: 
-	@mkdir -p parkhal1
-	@g++ -g -Wall -pedantic -Wno-long-long -O0 -ggdb src/*.cpp -o game_engine 
-	@mv game_engine parkhal1/
+	@g++ -g -Wall -pedantic -Wno-long-long -O0 -ggdb src/*.cpp -o parkhal1
 
 run:
-	@clear
-	@parkhal1/./game_engine
+	@./parkhal1
 
 clean:
-	@rm -f parkhal1/*
-	@rm -d -f parkhal1/
-	@rm -f src/savings/*
+	@rm parkhal1
+	@rm -rf doc/
+	@rm -f src/saving/*
+	@rm -rf src/latex/
+	@rm -f src/smart_conf.txt
+
+doc:
+	cd src ; doxygen -g smart_conf.txt ; doxygen smart_conf.txt ; mv html ../doc
